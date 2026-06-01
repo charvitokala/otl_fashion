@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EP 15 • Baek Dohwa</title>
+
+    <style>
+
+        @font-face {
+            font-family: 'Pixel Code';
+            src: url('PixelCode.otf') format('opentype');
+        }
+
+        body{
+            margin: 0;
+            padding: 40px;
+            background-image: url("wallpaper.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* WINDOW */
+
+        .window{
+            width: 1100px;
+            min-height: 800px;
+            background-color: #ffb6d9;
+            border-radius: 12px;
+            margin: auto;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+
+        /* TITLE BAR */
+
+        .titlebar{
+            background-color: #ff66b3;
+            padding: 12px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title-text{
+            font-family: 'Pixel Code';
+            font-size: 22px;
+            color: black;
+        }
+
+        .buttons{
+            display: flex;
+            gap: 6px;
+        }
+
+        .btn{
+            width: 18px;
+            height: 18px;
+            background-color: white;
+            border: 2px solid #ffcce6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ff66b3;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        /* PAGE TITLE */
+
+        .main-title{
+            font-family: 'Pixel Code';
+            font-size: 55px;
+            color: black;
+            margin: 40px;
+        }
+
+        /* CONTENT */
+
+        .content{
+            display: flex;
+            gap: 50px;
+            padding: 0 40px 40px 40px;
+            align-items: flex-start;
+        }
+
+        /* IMAGE */
+
+        .fashion-img{
+            width: 350px;
+            border: 5px solid black;
+        }
+
+        /* TEXT */
+
+        .description{
+            flex: 1;
+            color: black;
+        }
+
+        .description h2{
+            font-family: 'Pixel Code';
+            font-size: 34px;
+            margin-top: 0;
+        }
+
+        .description p{
+            font-size: 24px;
+            line-height: 1.8;
+        }
+
+        /* NAVIGATION */
+
+        .nav-buttons{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px 50px 40px;
+        }
+
+        .back-btn,
+        .next-btn{
+            background-color: #ff66b3;
+            color: white;
+            font-family: 'Pixel Code';
+            font-size: 20px;
+            padding: 15px 30px;
+            border: 3px solid white;
+            text-decoration: none;
+            box-shadow: 5px 5px 0px #ff99cc;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover,
+        .next-btn:hover{
+            background-color: #ff85c2;
+            transform: translateY(-4px);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="window">
+
+        <!-- TITLE BAR -->
+
+        <div class="titlebar">
+
+            <span class="title-text">
+                dohwa_fit.exe
+            </span>
+
+            <div class="buttons">
+                <div class="btn">_</div>
+                <div class="btn">□</div>
+                <div class="btn">X</div>
+            </div>
+
+        </div>
+
+        <!-- TITLE -->
+
+        <h1 class="main-title">
+            Episode 15
+        </h1>
+
+        <!-- CONTENT -->
+
+        <div class="content">
+
+            <!-- IMAGE -->
+
+            <img src="blank.png" class="fashion-img">
+
+            <!-- DESCRIPTION -->
+
+            <div class="description">
+
+                <h2>
+                    he's not there this ep
+                </h2>
+
+                <p>
+                    :[
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <!-- NAV BUTTONS -->
+
+        <div class="nav-buttons">
+
+            <a href="dohwa.html" class="back-btn">
+                ← BACK
+            </a>
+
+            <a href="ep16_dw.html" class="next-btn">
+                NEXT →
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

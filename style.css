@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Pixel Code';
+    src: url('PixelCode.otf') format('opentype');
+}
+
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* MAIN WINDOW */
+
+.window {
+    width: 1100px;
+    min-height: 750px;
+    background-color: #ffb6d9;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    margin: auto;
+    overflow: hidden;
+}
+
+/* TITLE BAR */
+
+.titlebar {
+    background: #ff66b3;
+    color: white;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PIXEL FONT */
+
+.font {
+    font-family: 'Pixel Code';
+    color: black;
+}
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.btn {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 2px solid #ffcce6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #ff66b3;
+    font-weight: bold;
+}
+
+/* MAIN TITLE */
+
+.main-title {
+    font-size: 64px;
+    margin: 40px 40px 20px 40px;
+    line-height: 1.1;
+}
+
+/* CONTENT LAYOUT */
+
+.maincontent {
+    display: flex;
+    gap: 50px;
+    padding: 20px 40px 50px 40px;
+    align-items: flex-start;
+}
+
+/* IMAGE */
+
+.imagebox {
+    flex-shrink: 0;
+}
+
+.imagebox img {
+    width: 360px;
+    border: 5px solid black;
+    display: block;
+}
+
+/* TEXT SECTION */
+
+.textbox {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    flex: 1;
+    color: black;
+}
+
+.textbox h2 {
+    font-family: 'Pixel Code';
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.textbox p {
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* TEXT HIGHLIGHT */
+
+::selection {
+    background: rgb(255, 97, 202);
+    color: white;
+}
+.next-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px 40px 40px;
+}
+
+.next-btn{
+    background-color: #ff66b3;
+    color: white;
+    padding: 15px 35px;
+    border: 3px solid white;
+    font-family: 'Pixel Code';
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #ff99cc;
+    transition: 0.2s;
+}
+
+.next-btn:hover{
+    background-color: #ff8cc6;
+    transform: translateY(-3px);
+}
+
+.next-btn:active{
+    transform: translateY(2px);
+}
+/* CHARACTER SECTION */
+
+.characters{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 100px 40px 60px 40px;
+    gap: 40px;
+}
+
+/* EACH CARD */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IMAGE */
+
+.character-img{
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border: 5px solid black;
+}
+
+/* NAME */
+
+.character-name{
+    font-family: 'Pixel Code';
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* BUTTON */
+
+.fashion-btn{
+    background-color: #ff66b3;
+    color: white;
+    font-family: 'Pixel Code';
+    font-size: 18px;
+    padding: 18px 25px;
+    border: 3px solid white;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #ff99cc;
+    transition: 0.2s;
+}
+
+.fashion-btn:hover{
+    background-color: #ff85c2;
+    transform: translateY(-4px);
+}
+
+/* NAV BUTTONS */
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 50px 50px;
+}
+
+/* BACK BUTTON */
+
+.back-btn{
+    background-color: #ff66b3;
+    color: white;
+    font-family: 'Pixel Code';
+    font-size: 22px;
+    padding: 14px 30px;
+    border: 3px solid white;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #ffcce6;
+    transition: 0.2s;
+}
+
+.back-btn:hover{
+    background-color: #ffb3d9;
+    transform: translateY(-4px);
+}
+
+/* NEXT BUTTON */
+
+.next-btn{
+    background-color: #ff66b3;
+    color: white;
+    font-family: 'Pixel Code';
+    font-size: 22px;
+    padding: 14px 30px;
+    border: 3px solid white;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #ff99cc;
+    transition: 0.2s;
+}
+
+.next-btn:hover{
+    background-color: #ff85c2;
+    transform: translateY(-4px);
+}
+
