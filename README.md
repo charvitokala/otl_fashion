@@ -14,35 +14,6 @@ The website presents this analysis through a retro computer-interface-inspired d
 
 **[Operation True Love — Fashion Analysis](https://otl-fashion.pages.dev/)**
 
-## Features
-
-* Fashion analysis inspired by *Operation: True Love*
-* Focus on Y2K and early-2000s Korean fashion
-* Character-focused fashion observations
-* Retro computer/operating-system-inspired interface
-* Image-based visual storytelling
-* Sequential navigation between analysis sections
-* Nostalgic visual design inspired by the subject matter
-* Responsive web experience
-
-## Fashion Focus
-
-The project primarily explores the relationship between *Operation: True Love* and **Y2K Korean streetwear**.
-
-Key elements discussed include:
-
-* Low-rise jeans
-* Layered tops
-* Chunky accessories
-* Mini handbags
-* Soft pastel color palettes
-* Casual everyday styling
-* Feminine Y2K silhouettes
-* Early-2000s Korean streetwear
-* Male casual streetwear
-
-The styling of **Su-ae** combines feminine elements with casual everyday fashion, while **Go Eunhyeok** and **Baek Dohwa** are presented through contemporary interpretations of 2000s-inspired men's streetwear.
-
 ## Tech Stack
 
 > Update this section if the repository uses a different implementation.
@@ -124,45 +95,6 @@ npm run preview
 
 > The available commands depend on the project's `package.json`.
 
-## Design Direction
-
-The visual identity of the project is deliberately tied to its subject.
-
-Rather than presenting the fashion analysis as a conventional editorial website, the interface uses a **retro digital/computer aesthetic** that evokes the early-2000s period associated with Y2K fashion.
-
-### Core Design Principles
-
-**Y2K nostalgia**
-
-The interface complements the early-2000s fashion being analyzed rather than separating the content from its visual context.
-
-**Digital interface**
-
-The operating-system-inspired presentation gives the website a distinctive interactive identity.
-
-**Visual storytelling**
-
-Images and fashion observations work together to communicate the aesthetic rather than relying solely on written descriptions.
-
-**Editorial analysis**
-
-The content treats character outfits as examples of broader fashion trends, particularly Korean streetwear and Y2K styling.
-
-## Content
-
-The current analysis focuses on **Y2K Fashion**.
-
-The website identifies several recurring elements within the characters' wardrobes:
-
-| Element            | Fashion Influence            |
-| ------------------ | ---------------------------- |
-| Layered tops       | Y2K casual styling           |
-| Low-rise jeans     | Early-2000s fashion          |
-| Chunky accessories | Y2K streetwear               |
-| Mini handbags      | Feminine Y2K styling         |
-| Pastel tones       | Soft Y2K aesthetic           |
-| Casual streetwear  | Korean early-2000s influence |
-
 ## Navigation
 
 The experience is structured as a sequential analysis, allowing visitors to move through different sections using the **NEXT** navigation.
@@ -187,30 +119,11 @@ For deployment:
 4. Configure the framework/build settings.
 5. Deploy the project.
 
-## Development
-
-When modifying the project, keep the following consistent:
-
-* Preserve the retro/Y2K visual language.
-* Optimize images before adding them.
-* Maintain readable typography and sufficient contrast.
-* Keep navigation intuitive between analysis sections.
-* Ensure the interface remains usable on smaller screens.
-* Avoid introducing visual elements that conflict with the early-2000s theme.
-
 ## Future Improvements
 
 Potential additions include:
 
-* Dedicated pages for individual characters
-* Detailed outfit breakdowns
 * Fashion references and historical context
-* Interactive outfit galleries
-* Character comparison views
-* Y2K fashion glossary
-* Search and filtering
-* Image-based outfit navigation
-* Responsive mobile-specific interface
 * More chapters/sections of fashion analysis
 * References to real-world Y2K Korean fashion trends
 
